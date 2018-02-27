@@ -1,0 +1,28 @@
+{
+  "name": "Enuve",
+  "description": "Enuve amarzenamento em Nuvem",
+  "main": "index.js",
+  "authors": [
+    "´Alessandra Sell"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "armazenamento",
+    "backup",
+    "nuvem"
+  ],
+  "homepage": "enuve.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "componentes"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "bootstrap-sass": "^3.3.7"
+  },
+  "private": true
+}

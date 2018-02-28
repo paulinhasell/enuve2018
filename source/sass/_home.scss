@@ -1,0 +1,15 @@
+@import "mixins";
+
+#menuTopo{
+    background-color: $azulEscuro;
+    height: 100px;
+    width: 100%;
+   .logoTopo{
+        padding-top: 10px;
+    }     
+  }
+  .bloco{		
+   -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+   -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+   box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}

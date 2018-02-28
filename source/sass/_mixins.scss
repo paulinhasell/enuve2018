@@ -1,0 +1,29 @@
+/* cores base do projeto */
+
+$azulEscuro: #0f5f99;
+$branco: #fff;
+$azulClaro:#12a3e3;
+$azulBotao:#275e8f;
+
+/*fontes*/
+
+$fontepri:'Raleway',
+sans-serif;
+$regular: 400;
+$bold: 900;
+
+
+/* estilos internos */
+
+br {
+  display: block;
+  line-height: 1.0em;
+}
+
+
+/*converte as fontes em rem*/
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}

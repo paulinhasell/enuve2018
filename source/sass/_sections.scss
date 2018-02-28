@@ -1,0 +1,31 @@
+@import "mixins";
+
+#menuTopo{
+  background-color: $azulEscuro;
+  height: 100px;
+  width: 100vh;
+}
+
+
+/*		Mobile Layout: 320px.( iphone 3/4/5/6 ) */	
+
+@media only screen and (max-width: 767px) {
+
+
+
+}
+
+/*	Mobile ipad e ipad pro: */
+@media (min-width : 768px) and (max-width : 1024px) {
+
+
+
+}
+
+/*	ipad pro */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  
+  }

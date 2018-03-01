@@ -10,7 +10,8 @@ $azulBotao:#275e8f;
 $fontepri:'Raleway',
 sans-serif;
 $regular: 400;
-$bold: 900;
+$bold:600;
+$bolder: 900;
 
 
 /* estilos internos */
@@ -20,6 +21,9 @@ br {
   line-height: 1.0em;
 }
 
+.top20 {
+  padding-top: 20px;
+}
 
 /*converte as fontes em rem*/
 

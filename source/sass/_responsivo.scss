@@ -2,15 +2,163 @@
 
 /*===========================================================
 /*++++++++++++++ Mobile Layout: 320px.( iphone 3/4/5/6 ) */
-
-
+@media only screen and (max-width: 374px) {
 /*============================================================*/
-
-@media only screen and (max-width: 767px) {
-  /* ================================================= topo =================== */
+.mobile{
+  display: inline-table;
+}
+#menuTopo .navbar a {
+  text-transform: uppercase;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-weight: 400;
+  border-bottom: 1px solid #fff;
+  margin: 5px;
+}
+.navbar-brand{
+ img{
+   width: 100%
+ }
+ 
+}
+.container .navbar-header{
+  margin-right: 10px;
+  float: right;
   
-	
-} // fim responsive mobile 
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:$branco;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+background-color: $azulClaro;
+
+}
+
+.navbar {
+  background: transparent;
+  border-color: none;
+  border: transparent;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  a{
+      text-transform: uppercase;
+      color: $branco !important;
+      font-size: 8px !important;
+      font-weight: $bold;
+  
+  }
+  
+.navbar-collapse {
+    overflow-x: visible;
+    float: left;
+    background: $azulEscuro;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 48px;
+    margin-left:-170px;
+    border-top: 0px solid transparent;
+    width: 220px;
+    box-shadow: 0px 0 rgba(255,255,255,0.9);
+    -webkit-overflow-scrolling: touch;
+    border-radius:10px;
+          -moz-border-radius:10px;
+          -webkit-border-radius:10px;
+          border:0px solid $azulEscuro;
+  }
+}
+.slidershadow {
+  float: left;
+  width: 1%;
+  height: 2px !important;
+  background: transparent !important;
+  position: relative;
+  z-index: 999;
+}
+.btnlogin{
+  float: left !important;
+
+} 
+}
+@media  (min-width: 375px) and  (max-width: 767px) {
+  /* ================================================= topo =================== */
+  .mobile{
+    display: inline-table;
+  }
+  #menuTopo .navbar a {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 10px !important;
+    font-weight: 400;
+    border-bottom: 1px solid #fff;
+    margin: 5px;
+  }
+  .navbar-brand{
+   img{
+     width: 100%
+   }
+   
+  }
+  .container .navbar-header{
+    margin-right: 10px;
+    float: right;
+    
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color:$branco;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: $azulClaro;
+  
+}
+  .navbar {
+    background: transparent;
+    border-color: none;
+    border: transparent;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    a{
+        text-transform: uppercase;
+        color: $branco !important;
+        font-size: 8px !important;
+        font-weight: $bold;
+    
+    }
+    
+  .navbar-collapse {
+      overflow-x: visible;
+      float: left;
+      background: $azulEscuro;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-top: 48px;
+      margin-left:-210px;
+      border-top: 0px solid transparent;
+      width: 220px;
+      box-shadow: 0px 0 rgba(255,255,255,0.9);
+      -webkit-overflow-scrolling: touch;
+      border-radius:10px;
+            -moz-border-radius:10px;
+            -webkit-border-radius:10px;
+            border:0px solid $azulEscuro;
+    }
+  }
+  .slidershadow {
+    float: left;
+    width: 1%;
+    height: 2px !important;
+    background: transparent !important;
+    position: relative;
+    z-index: 999;
+  }
+  .btnlogin{
+    float: left !important;
+  
+} 
+	} // fim responsive mobile 
 
 /*===========================================================
 /*++++++++++++++ Mobile ipad e ipad pro: */

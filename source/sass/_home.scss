@@ -1,14 +1,82 @@
 @import "mixins";
 
+.mobile{
+    display:none;
+}
 #menuTopo{
     background-color: $azulEscuro;
-    height: 100px;
+    height: 80px;
     width: 100%;
+    clear: both;
+    padding-top: 0;
    .logoTopo{
-        padding-top: 10px;
+        padding-top: 2px;
+    } 
+    .form-group {
+        input[type=text]{ 
+            background: #597a96 !important;
+            border-radius:4px;
+            -moz-border-radius:4px;
+            -webkit-border-radius:4px;
+            border:0px solid #597a96;
+            color:$branco !important;
+            float:left;
+            height: 25px;   
+      }
+      
+      ::-webkit-input-placeholder {
+        color:$branco;
+        font-family: $fontepri;
+        font-size: 10px;
+        font-weight: $bold;
+        text-transform: uppercase;
+        padding-left: 10px;
+     }
+     
+     :-moz-placeholder {
+         color:$branco;
+         font-family: $fontepri;
+        font-size: 10px;
+        font-weight: $bold;
+        text-transform: uppercase;
+        padding-left: 10px;
+     }
+     
+     ::-moz-placeholder {
+        color:$branco;
+        font-family: $fontepri;
+        font-size: 10px;
+        font-weight: $bold;
+        text-transform: uppercase;
+        padding-left: 10px;
+     }
+     
+     :-ms-input-placeholder {  
+        color:$branco;
+        font-family: $fontepri;
+        font-size: 10px;
+        font-weight: $bold;
+        text-transform: uppercase;
+        padding-left: 10px;
+     }
+     a.hover{
+        background-color: transparent !important;
+        font-family: $fontepri;
+        color: $azulClaro !important;
+        text-decoration: underline;
     }
-    
+ 
   }
+  .btnlogin{
+    width: 80px !important;
+    background: $azulClaro;
+    color: $branco;
+    border:1px solid $azulClaro;
+    float: right;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 10px;
+} 
   .bloco{		
    -webkit-box-shadow: 0px 9px 5px rgba(50, 50, 50, 0.77);
    -moz-box-shadow:    0px 9px 5px rgba(50, 50, 50, 0.77);
@@ -26,9 +94,17 @@
     a{
         text-transform: uppercase;
         color: $branco !important;
-        font-size: 14px !important;
+        font-size: 12px !important;
         font-weight: $bold;
+    
     }
+    a:hover{
+        background-color: transparent !important;
+    font-family: $fontepri;
+    color: $azulClaro !important;
+    text-decoration: underline;
+    }
+    
     .active {
         
         a{
@@ -38,6 +114,12 @@
         text-decoration: underline;
         }          
             }
+}
+ 
+}
+#apresenta{
+    clear: both;
+    padding-top: 70px;
 }
 .amarelo{
     background-color: #fff000;

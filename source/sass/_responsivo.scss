@@ -1,8 +1,82 @@
 @import "mixins";
 
+ /*large Screen*/
+    
+ @media (min-width: 1920px) {
+  #apresenta{
+    clear: both;
+    padding-top: 70px;
+}
+
+.slides .carousel.slide{
+	height: 790px;
+}
+
+.slides .item { 
+	height: 790px;
+}
+
+.imgslider {
+	height: 790px;
+	background: url(../slide/01.jpg);
+	background-size: cover;
+}
+
+.imgsegundo{
+	height: 792px;
+	background: url(../slide/01.jpg);
+	background-size: cover;
+}
+
+.imgterceiro{
+	height: 742px;
+	background: url(../slide/01.jpg);
+	background-size: cover;
+
+}
+.bgslide{
+    
+        background-color: #013A6B;
+        background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+        min-width: 500px;
+        min-height: 440px;
+
+      }
+
+.caixatexto{
+    float: right;
+    margin-right: 400px;
+    margin-top: 160px;
+    width: 490px;
+    height: 445px;
+    background-color: $azulClaro;
+        background-image: -webkit-linear-gradient(-110deg, $azulClaro 70%, #073a6d 30%);
+    }
+    .carousel-indicators li {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin: 1px;
+        text-indent: -999px;
+        border: none;
+        /* border-radius: 10px; */
+        cursor: pointer;
+        background-color: #000 \9;
+        background-color: #758c9f;
+    }
+    .carousel-indicators .active {
+        margin: 0;
+        width: 15px;
+        height: 15px;
+        background-color: #073a6d;
+    }
+ 
+}
+
+
 /*===========================================================
 /*++++++++++++++ Mobile Layout: 320px.( iphone 3/4/5/6 ) */
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 359px) {
 /*============================================================*/
 .mobile{
   display: inline-table;
@@ -80,6 +154,89 @@ background-color: $azulClaro;
   float: left !important;
 
 } 
+}
+/*===========================================================
+/*++++++++++++++ Mobile Layout: 360px.( samsumg galaxy) */
+@media (min-width: 360px) and  (max-width: 766px) {
+/*@media only screen and  (max-width: 360px)  {*/
+  .mobile{
+    display: inline-table;
+  }
+  #menuTopo .navbar a {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 10px !important;
+    font-weight: 400;
+    border-bottom: 1px solid #fff;
+    margin: 5px;
+  }
+  .navbar-brand{
+   img{
+     width: 100%
+   }
+   
+  }
+  .container .navbar-header{
+    margin-right: 10px;
+    float: right;
+    
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color:$branco;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: $azulClaro;
+  
+  }
+  
+  .navbar {
+    background: transparent;
+    border-color: none;
+    border: transparent;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    a{
+        text-transform: uppercase;
+        color: $branco !important;
+        font-size: 8px !important;
+        font-weight: $bold;
+    
+    }
+    
+  .navbar-collapse {
+      overflow-x: visible;
+      float: left;
+      background: $azulEscuro;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-top: 48px;
+      margin-left:-180px;
+      border-top: 0px solid transparent;
+      width: 220px;
+      box-shadow: 0px 0 rgba(255,255,255,0.9);
+      -webkit-overflow-scrolling: touch;
+      border-radius:10px;
+            -moz-border-radius:10px;
+            -webkit-border-radius:10px;
+            border:0px solid $azulEscuro;
+    }
+  }
+  .slidershadow {
+    float: left;
+    width: 1%;
+    height: 2px !important;
+    background: transparent !important;
+    position: relative;
+    z-index: 999;
+  }
+  .btnlogin{
+    float: left !important;
+  
+  } 
+
+
 }
 @media  (min-width: 375px) and  (max-width: 767px) {
   /* ================================================= topo =================== */
@@ -166,9 +323,48 @@ background-color: $azulClaro;
 
 /*============================================================*/
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   /* ================================================= topo =================== */
+
+  #menuTopo .navbar a {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 10px !important;
+    font-weight: 400;
+    margin: 5px;
+  }
+  .navbar-brand{
+   img{
+     width: 100%
+   } 
+  }
+  .navbar {
+    background: transparent;
+    border-color: none;
+    border: transparent;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    a{
+        text-transform: uppercase;
+        color: $branco !important;
+        font-size: 8px !important;
+        font-weight: $bold;
+    
+    }
+  }
   
+  
+.slidershadow {
+  float: left;
+  width: 1%;
+  height: 2px !important;
+  background: transparent !important;
+  position: relative;
+  z-index: 999;
+}
+
 } // fim responsive ipad
 
 /*===========================================================
@@ -177,4 +373,76 @@ background-color: $azulClaro;
 
 /*============================================================*/
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  #menuTopo .navbar a {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 10px !important;
+    font-weight: 400;
+    margin: 5px;
+    
+  }
+  
+  #menuTopo{
+    img {
+      width: 60%;
+      padding-left: 8px;
+      padding-top: 20px;
+    }
+    .navbar-brand{
+      img {
+        padding-left: 8px;
+      padding-top: 5px;
+        width: 90%;
+      }
+    }
+    .form-group {
+      input[type=text]{ 
+          background: #597a96 !important;
+          border-radius:4px;
+          -moz-border-radius:4px;
+          -webkit-border-radius:4px;
+          border:0px solid #597a96;
+          color:$branco !important;
+          float:left;
+          height: 25px; 
+          width: 135px !important;  
+    }
+  }
+}
+  .navbar {
+    background: transparent;
+    border-color: none;
+    border: transparent;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    a{
+        text-transform: uppercase;
+        color: $branco !important;
+        font-size: 8px !important;
+        font-weight: $bold;
+    
+    }
+  }
+  .btnlogin{
+    width: 40px !important;
+    background: $azulClaro;
+    color: $branco;
+    border:1px solid $azulClaro;
+    float: right;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 8px;
+} 
+
+  .slidershadow {
+    float: left;
+    width: 100%;
+    height: 34px !important;
+    background: transparent !important;
+    position: relative;
+    z-index: 999;
+  }
+}

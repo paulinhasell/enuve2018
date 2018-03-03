@@ -121,6 +121,69 @@
     clear: both;
     padding-top: 70px;
 }
+
+.slides .carousel.slide{
+	height: 640px;
+}
+
+.slides .item { 
+	height: 640px;
+}
+
+.imgslider {
+	height: 640px;
+	background: url(../slide/01.jpg);
+	background-size: cover;
+}
+
+.imgsegundo{
+	height: 640px;
+	background: url(../slide/01.jpg);
+	background-size: cover;
+}
+
+.imgterceiro{
+	height: 640px;
+	background: url(../slide/01.jpg);
+	background-size: cover;
+
+}
+.bgslide{
+    
+        background-color: #013A6B;
+        background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+        min-width: 500px;
+        min-height: 440px;
+
+      }
+
+.caixatexto{
+    float: right;
+    margin-right: 140px;
+    margin-top: 80px;
+    width: 490px;
+    height: 445px;
+    background-color: $azulClaro;
+        background-image: -webkit-linear-gradient(-110deg, $azulClaro 70%, #073a6d 30%);
+    }
+    .carousel-indicators li {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin: 1px;
+        text-indent: -999px;
+        border: none;
+        /* border-radius: 10px; */
+        cursor: pointer;
+        background-color: #000 \9;
+        background-color: #758c9f;
+    }
+    .carousel-indicators .active {
+        margin: 0;
+        width: 15px;
+        height: 15px;
+        background-color: #073a6d;
+    }
 .amarelo{
     background-color: #fff000;
 }

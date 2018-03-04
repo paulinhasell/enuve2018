@@ -7,11 +7,11 @@ $azulBotao:#275e8f;
 
 /*fontes*/
 
-$fontepri:'Raleway',
-sans-serif;
+$fontepri:'Raleway',sans-serif;
 $regular: 400;
 $bold:600;
-$bolder: 900;
+$fontesec:'Roboto', sans-serif;
+$bolder:700;
 
 
 /* estilos internos */
@@ -41,7 +41,7 @@ br {
 	width: 100%;
 	height: 32px;
 	background: url(../img/shadow.png) no-repeat center top;
-	position: relative;
+	position: absolute;
 	z-index: 999;
 }
 /*converte as fontes em rem*/

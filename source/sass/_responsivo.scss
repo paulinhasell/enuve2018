@@ -7,7 +7,12 @@
     clear: both;
     padding-top: 70px;
 }
-
+.carousel{
+  position: relative;
+  background: url(../slide/01.jpg);
+  background-size: cover;
+  height: 790px;
+}
 .slides .carousel.slide{
 	height: 790px;
 }
@@ -50,7 +55,36 @@
     width: 490px;
     height: 445px;
     background-color: $azulClaro;
-        background-image: -webkit-linear-gradient(-110deg, $azulClaro 70%, #073a6d 30%);
+    background-image: -webkit-linear-gradient(-110deg, $azulClaro 70%, #073a6d 30%);
+    padding-top: 80px;
+    h1{
+      font-family: $fontesec;
+      text-transform: uppercase;
+      font-weight: $bolder;
+      color:$branco;
+      font-size: 42px;
+   }
+   p{
+       font-family: $fontesec;
+       text-transform: uppercase;
+       font-weight: $regular;
+       color:#073a6d;
+       font-size: 28px;
+       padding-bottom: 40px;  
+   }
+   .btn-default {
+       background-color: #275e8f;
+       border-color: #275e8f;
+       color: $branco;
+       text-transform: uppercase;
+       font-weight: $bold;
+       font-size: 26px;
+   }
+   
+   .btnslide{
+    text-align: center;
+    display: block
+   }
     }
     .carousel-indicators li {
         display: inline-block;
@@ -70,7 +104,41 @@
         height: 15px;
         background-color: #073a6d;
     }
- 
+    #aenuve{
+     background: #f6f6f6;
+      width: 100%;
+     height: 455px;
+     width: 100%;
+
+     .box_aenuve{
+      color: #073a6d;
+      padding-top: 80px;
+      width: 70%;
+      
+      p{
+          padding-top: 40px;
+          font-size: 16px;
+          font-weight: $bold;
+          line-height: 28px;
+      }
+  
+      img{
+      width: auto;
+  }
+  } 
+  }
+  .box_aenuve_img{
+    img{
+        width: 100%;
+    }
+}
+#video{
+	padding: 0px 0px; 
+	color: rgb(255, 255, 255); 
+  position: relative;
+  height: 80vh;
+
+}
 }
 
 
@@ -153,7 +221,137 @@ background-color: $azulClaro;
 .btnlogin{
   float: left !important;
 
+}
+
+#apresenta{
+  clear: both;
+  padding-top: 70px;
+}
+.carousel{
+  position: relative;
+  background: url(../slide/01_340.jpg);
+  background-size: cover;
+  height:350px;
+}
+.slides .carousel.slide{
+height: 350px;
+}
+
+.slides .item { 
+height: 350px;
+}
+
+.imgslider {
+height: 350px;
+background: url(../slide/01_340.jpg);
+background-size: cover;
+}
+
+.imgsegundo{
+height: 792px;
+background: url(../slide/01_340.jpg);
+background-size: cover;
+}
+
+.imgterceiro{
+height: 742px;
+background: url(../slide/01_340.jpg);
+background-size: cover;
+
+}
+
+.caixatexto{
+  float: right;
+  margin-right: 50px;
+  margin-top: 100px;
+  width: 220px;
+  height: 145px;
+  background-color: $azulClaro;
+  background-image: -webkit-linear-gradient(-105deg, $azulClaro 70%, #073a6d 30%);
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  h1{
+    font-family: $fontesec;
+    text-transform: uppercase;
+    font-weight: $bolder;
+    color:$branco;
+    font-size: 16px;
+ }
+ p{
+     font-family: $fontesec;
+     text-transform: uppercase;
+     font-weight: $regular;
+     color:#073a6d;
+     font-size: 11px;
+     padding-bottom: 10px;  
+ }
+ .btn-default {
+     background-color: #275e8f;
+     border-color: #275e8f;
+     color: $branco;
+     text-transform: uppercase;
+     font-weight: $bold;
+     font-size: 10px;
+ }
+ 
+ .btnslide{
+  text-align: center;
+  display: block
+ }
+  }
+  .carousel-indicators li {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin: 1px;
+      text-indent: -999px;
+      border: none;
+      /* border-radius: 10px; */
+      cursor: pointer;
+      background-color: #000 \9;
+      background-color: #758c9f;
+  }
+  .carousel-indicators .active {
+      margin: 0;
+      width: 15px;
+      height: 15px;
+      background-color: #073a6d;
+  }
+  #aenuve{
+    background: #f6f6f6;
+    height: auto;
+    width: 100%;
+           
+    
+}
+.box_aenuve{
+   color: #073a6d;
+   padding-top: 50px;
+   width: 100%;
+   padding-left: 10px;
+   
+   
+   p{
+       padding-top: 20px;
+       font-size: 14px;
+       font-weight: $bold;
+       line-height: 32px;
+   }
+
+   img{
+   width: 60%;
+}
 } 
+.box_aenuve_img{
+   margin-left: 0;
+   margin-right:0;
+  padding-top: 20px;
+   img{
+       width: 80%;
+   }
+}       
+
 }
 /*===========================================================
 /*++++++++++++++ Mobile Layout: 360px.( samsumg galaxy) */
@@ -235,7 +433,136 @@ background-color: $azulClaro;
     float: left !important;
   
   } 
-
+  #apresenta{
+    clear: both;
+    padding-top: 70px;
+  }
+  .carousel{
+    position: relative;
+    background: url(../slide/01_360.jpg);
+    background-size: cover;
+    height: 360px;
+}
+  
+  .slides .carousel.slide{
+  height: 360px;
+  }
+  
+  .slides .item { 
+  height: 360px;
+  }
+  
+  .imgslider {
+  height: 360px;
+  background: url(../slide/01_360.jpg);
+  background-size: cover;
+  }
+  
+  .imgsegundo{
+  height: 792px;
+  background: url(../slide/01_360.jpg);
+  background-size: cover;
+  }
+  
+  .imgterceiro{
+  height: 742px;
+  background: url(../slide/01_360.jpg);
+  background-size: cover;
+  
+  }
+  
+  .caixatexto{
+    float: right;
+    margin-right: 60px;
+    margin-top: 100px;
+    width: 250px;
+    height: 165px;
+    background-color: $azulClaro;
+    background-image: -webkit-linear-gradient(-105deg, $azulClaro 70%, #073a6d 30%);
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    h1{
+      font-family: $fontesec;
+      text-transform: uppercase;
+      font-weight: $bolder;
+      color:$branco;
+      font-size: 16px;
+   }
+   p{
+       font-family: $fontesec;
+       text-transform: uppercase;
+       font-weight: $regular;
+       color:#073a6d;
+       font-size: 11px;
+       padding-bottom: 10px;  
+   }
+   .btn-default {
+       background-color: #275e8f;
+       border-color: #275e8f;
+       color: $branco;
+       text-transform: uppercase;
+       font-weight: $bold;
+       font-size: 10px;
+   }
+   
+   .btnslide{
+    text-align: center;
+    display: block
+   }
+    }
+    .carousel-indicators li {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin: 1px;
+        text-indent: -999px;
+        border: none;
+        /* border-radius: 10px; */
+        cursor: pointer;
+        background-color: #000 \9;
+        background-color: #758c9f;
+    }
+    .carousel-indicators .active {
+        margin: 0;
+        width: 15px;
+        height: 15px;
+        background-color: #073a6d;
+    }
+    #aenuve{
+      background: #f6f6f6;
+      height: auto;
+      width: 100%;
+             
+      
+  }
+  .box_aenuve{
+     color: #073a6d;
+     padding-top: 50px;
+     width: 100%;
+     padding-left: 10px;
+     
+     
+     p{
+         padding-top: 20px;
+         font-size: 14px;
+         font-weight: $bold;
+         line-height: 32px;
+     }
+  
+     img{
+     width: 60%;
+  }
+  } 
+  .box_aenuve_img{
+     margin-left: 0;
+     margin-right:0;
+    padding-top: 20px;
+     img{
+         width: 80%;
+     }
+  }       
+  
 
 }
 @media  (min-width: 375px) and  (max-width: 767px) {
@@ -315,6 +642,41 @@ background-color: $azulClaro;
     float: left !important;
   
 } 
+#aenuve{
+  background: #f6f6f6;
+  height: auto;
+  width: 100%;
+         
+  
+}
+.box_aenuve{
+ color: #073a6d;
+ padding-top: 50px;
+ width: 100%;
+ padding-left: 10px;
+ 
+ 
+ p{
+     padding-top: 20px;
+     font-size: 14px;
+     font-weight: $bold;
+     line-height: 32px;
+ }
+
+ img{
+ width: 60%;
+}
+} 
+.box_aenuve_img{
+ margin-left: 0;
+ margin-right:0;
+padding-top: 20px;
+ img{
+     width: 80%;
+ }
+}       
+
+
 	} // fim responsive mobile 
 
 /*===========================================================
@@ -323,7 +685,7 @@ background-color: $azulClaro;
 
 /*============================================================*/
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1279px) and (orientation : portrait) {
   /* ================================================= topo =================== */
 
   #menuTopo .navbar a {
@@ -333,6 +695,84 @@ background-color: $azulClaro;
     font-weight: 400;
     margin: 5px;
   }
+  .navbar-brand{
+   img{
+     width: 100%
+   } 
+  }
+  .navbar {
+    background: transparent;
+    border-color: none;
+    border: transparent;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    a{
+        text-transform: uppercase;
+        color: $branco !important;
+        font-size: 8px !important;
+        font-weight: $bold;
+    
+    }
+  }
+  .box_aenuve{
+    color: #073a6d;
+    padding-top: 60px;
+    width: 95%;
+    
+    
+    p{
+        padding-top: 20px;
+        font-size: 12px;
+        font-weight: $bold;
+        line-height: 32px;
+    }
+
+    img{
+    width: 60%;
+}
+} 
+.box_aenuve_img{
+    margin-left: 0;
+    margin-right:0;
+   padding-top: 20px;
+    img{
+        width: 100%;
+    }
+}        
+  
+.slidershadow {
+  float: left;
+  width: 1%;
+  height: 2px !important;
+  background: transparent !important;
+  position: relative;
+  z-index: 999;
+}
+
+} // fim responsive ipad
+
+@media (min-width: 768px) and (max-width: 1279px) and (orientation : landscape) {
+  /* ================================================= topo =================== */
+
+  #menuTopo .navbar a {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 10px !important;
+    font-weight: 400;
+    margin: 5px;
+  }
+
+#menuTopo{
+  img {
+    width: 60%;
+    padding-left: 8px;
+    padding-top: 20px;
+    float: right;
+  }
+}
+  
   .navbar-brand{
    img{
      width: 100%
@@ -365,7 +805,53 @@ background-color: $azulClaro;
   z-index: 999;
 }
 
+.form-group {
+  input[type=text]{ 
+      background: #597a96 !important;
+      border-radius:4px;
+      -moz-border-radius:4px;
+      -webkit-border-radius:4px;
+      border:0px solid #597a96;
+      color:$branco !important;
+      float:left;
+      height: 25px; 
+      width: 135px !important;
+      display:none !important;  
+}
+}
+.box_aenuve{
+  color: #073a6d;
+  padding-top: 60px;
+  width: 75%;
+  
+  
+  p{
+      padding-top: 20px;
+      font-size: 12px;
+      font-weight: $bold;
+      line-height: 32px;
+  }
+
+  img{
+  width: 60%;
+}
+} 
+.box_aenuve_img{
+  margin-left: 0;
+  margin-right:0;
+ padding-top: 20px;
+  img{
+      width: 100%;
+  }
+}     
+
 } // fim responsive ipad
+
+/*===========================================================
+/*++++++++++++++ ipad pro */
+
+
+/*============================================================*/
 
 /*===========================================================
 /*++++++++++++++ ipad pro */
@@ -388,6 +874,7 @@ background-color: $azulClaro;
       width: 60%;
       padding-left: 8px;
       padding-top: 20px;
+      float: right;
     }
     .navbar-brand{
       img {
@@ -406,7 +893,8 @@ background-color: $azulClaro;
           color:$branco !important;
           float:left;
           height: 25px; 
-          width: 135px !important;  
+          width: 135px !important;
+          
     }
   }
 }

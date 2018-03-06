@@ -1,5 +1,6 @@
 @import "mixins";
 
+/* ========== HEADER =========== */
 .mobile{
     display:none;
 }
@@ -117,6 +118,7 @@
 }
  
 }
+/* ========== APRESENTACAO =========== */
 #apresenta{
     clear: both;
     position: relative;
@@ -184,9 +186,9 @@
        font-size: 36px;
     }
     p{
-        font-family: $fontesec;
+        font-family: $fontepri;
         text-transform: uppercase;
-        font-weight: $regular;
+        font-weight:$bolder;
         color:#073a6d;
         font-size: 22px;
         padding-bottom: 30px;  
@@ -223,7 +225,7 @@
         height: 15px;
         background-color: #073a6d;
     }
-
+/* ========== AENUVE =========== */
  #aenuve{
      background: #f6f6f6;
      height: 400px;
@@ -256,6 +258,11 @@
         width: 80%;
     }
 } 
+/* ========== VIDEO =========== */
+.fullHD{
+    width: 100%;
+    height:auto;
+}
 #video{
 	padding: 0px 250px; 
 	color: rgb(255, 255, 255); 
@@ -273,7 +280,198 @@
     top: 0px;
     left: 0px;
     z-index: 1;
-}      
+    display: none;
+}
+.videopos{
+    position: absolute; 
+    z-index: -1; 
+    top: -250px; 
+    left: 0px;
+    bottom: 0px; 
+    right: 0px; 
+    overflow: hidden; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+    background-repeat: no-repeat;
+} 
+.videocontrol{
+    visibility: visible;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+/* ========== SOBRE SERVICOS =========== */
+  
+#sobrehome{
+    margin-top: 0px;
+    display: block;
+    width:100% !important;
+    height: 565px;
+	background: url(../images/fundo_sobre.jpg) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    clear: both;
+
+    img{
+       padding-top: 5%; 
+    }
+    
+}
+/* ========== SOBRE SERVICOS =========== */
+#consultoria{
+    width: 100% !important;
+    background: #ff8f15 url(../img/bg_contato.png) repeat-x;
+    height: 500px;
+    h2{
+        text-transform: uppercase;
+        color:$branco;
+        font-size: 22px;
+        font-family: $fontesec;
+        font-weight: $regular;
+        line-height: 20px;
+        
+    }
+    .box_contxt{
+        padding-top: 90px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .box_form{
+        padding-top: 90px;
+        padding-left: 5%;
+        
+        
+            }
+            .form-group {
+                    input[type=text]{ 
+                    background: #c46d0b !important;
+                    border-radius:2px;
+                    -moz-border-radius:2px;
+                    -webkit-border-radius: 2px;
+                    border:0px solid #c46d0b;
+                    color:$branco !important;
+                    height: 45px;
+                    margin-right: 5px; 
+                    width: 40%;
+                    
+              }
+              input[type=email]{ 
+                background: #c46d0b !important;
+                border-radius:2px;
+                -moz-border-radius:2px;
+                -webkit-border-radius: 2px;
+                border:0px solid #c46d0b;
+                color:$branco !important;
+                height: 45px; 
+                width: 82%;
+              } 
+            }
+            .btncons{
+                background-color: #014064 !important;
+                border-color:#014064;
+                border-radius:2px;
+                -moz-border-radius:2px;
+                -webkit-border-radius: 2px;
+                width: 150px;
+                color: $branco;
+                text-transform: uppercase;
+                font-weight: $bold;
+            }
+            ::-webkit-input-placeholder {
+                color:$branco;
+                font-family: $fontepri;
+                text-transform: uppercase;
+                padding-left: 10px;
+                font-size: 12px;
+             }
+             
+             :-moz-placeholder {
+                 color:$branco;
+                 font-family: $fontepri;
+                text-transform: uppercase;
+                padding-left: 10px;
+                font-size: 12px;
+             }
+             
+             ::-moz-placeholder {
+                color:$branco;
+                font-family: $fontepri;
+                text-transform: uppercase;
+                padding-left: 10px;
+                font-size: 12px;
+             }
+             
+             :-ms-input-placeholder {  
+                color:$branco;
+                font-family: $fontepri;
+                text-transform: uppercase;
+                padding-left: 10px;
+                font-size: 12px;
+             }  
+                      
+             .regular-checkbox {
+                -webkit-appearance: none;
+                background-color: #c46d0b;
+                border: 1px solid #c46d0b;
+                box-shadow: 0 1px 2px rgba(196,109,11,0.05), inset 0px -15px 10px -12px rgba(196,109,11,0.05);
+                padding: 9px;
+                border-radius: 3px;
+                display: inline-block;
+                position: relative;
+                
+            }
+            .regular-checkbox:active, .regular-checkbox:checked:active {
+                box-shadow: 0 1px 2px rgba(196,109,11,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+            }
+            
+            .regular-checkbox:checked {
+                background-color: #c46d0b;
+                border: 1px solid #c46d0b;
+                box-shadow: 0 1px 2px rgba(196,109,11,0.05), inset 0px -15px 10px -12px rgba(196,109,11,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+                color: $branco;
+            }
+            
+            .regular-checkbox:checked:after {
+                content: '\2714';
+                font-size: 14px;
+                position: absolute;
+                top: 0px;
+                left: 3px;
+                color: $branco;
+            } 
+            .labelx{
+                font-family: $fontepri;   
+                color: $branco;
+                font-weight: $bold !important;
+                position: absolute;
+                padding-left: 8px;
+                padding-top: 5px;
+                }                     
+            
+}
 .amarelo{
     background-color: #fff000;
 }

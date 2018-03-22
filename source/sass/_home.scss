@@ -5,6 +5,7 @@
 .mobile{
     display:none;
 }
+
 #menuTopo{
     background-color: $azulEscuro;
     height: 80px;
@@ -498,6 +499,80 @@
                  
   }
   // modal video 
+
+  .modal-backdrop {
+    background-color: #014064;
+  }
+  .modal-backdrop.in {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=76);
+    opacity: 0.76;
+  }
+  
+  .modal {
+    text-align: center;
+  }
+  .modal.in .modal-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .modal .modal-dialog {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  .modal .modal-dialog .modal-content {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .modal .modal-dialog .modal-header {
+    border: none;
+    margin: 0;
+    background-color: transparent;
+    text-align: right;
+  }
+  .modal .modal-dialog .modal-header button {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .modal .modal-dialog .modal-body {
+    padding: 0;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  .modal.videoModal .modal-dialog {
+    max-width: 940px;
+    width: 100%;
+  }
+  .modal.videoModal .modal-dialog .modal-content {
+    background-color: #014064 ;
+  
+  }
+  .modal.videoModal .modal-dialog .modal-body {
+    margin: 0 auto;
+    background-color: transparent;
+    max-width: 832px;
+    width: 100%;
+    padding: 4px 15px 50px 15px;
+  }
+  .fechar{
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: small;
+    
+  }
   
 /* ========== SOBRE ATENDIMENTO =========== */
 #atendimento{

@@ -6,7 +6,7 @@
   #apresenta{
     clear: both;
     padding-top: 70px;
-}
+
 .carousel{
   position: relative;
   background: url(../slide/01.jpg);
@@ -104,6 +104,7 @@
         height: 15px;
         background-color: #073a6d;
     }
+  }
   #video{
     padding: 0px 0px; 
     color: rgb(255, 255, 255); 
@@ -134,6 +135,15 @@
     background-position: 50% 50%; 
     background-repeat: no-repeat;
 } 
+#sobrehome{
+  height: 865px;
+  img{
+    padding-top: 5%;
+    width: 50%;
+    
+  }
+}
+
  }/*===========================================================
   /*++++++++++++++ fim DESKTOP FULL HD 2560px - 4K: */
   /*============================================================*/  
@@ -146,7 +156,7 @@
   #apresenta{
     clear: both;
     padding-top: 70px;
-}
+
 .carousel{
   position: relative;
   background: url(../slide/01.jpg);
@@ -244,6 +254,7 @@
         height: 15px;
         background-color: #073a6d;
     }
+  }
     #aenuve{
      background: #f6f6f6;
       width: 100%;
@@ -272,6 +283,7 @@
         width: 100%;
     }
 }
+
 #video{
 	padding: 0px 0px; 
 	color: rgb(255, 255, 255); 
@@ -280,7 +292,86 @@
 
 }
 #sobrehome{
-  height: 600px;
+  height: 690px;
+}
+/* ========== SOBRE ATENDIMENTO =========== */
+#atendimento{
+  width: 100% !important;
+  background:  url(../img/atendimento_bg.jpg) repeat-x;
+  height: 500px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  #carousel{
+      margin-left: -200px;
+      
+      .slide{
+          background: none;
+          width: 400px !important;
+      }
+      .carousel-control{
+          padding-top: 230px !important;
+          width: 50px;
+          background: none;
+          width: 130px;
+          margin-right:190px;
+
+      
+
+      }
+      .proximo{
+           
+          
+          img{
+              width: 60px;
+          }
+          
+          
+          
+      }
+      .anterior{
+          
+          
+       
+          img{
+              width: 60px;
+          }
+  }
+
+  }
+  .skew {
+      margin-left: -180px;
+      width: 80%;
+      height: 500px;
+      background: radial-gradient(circle, #99d3ef, #d3eef9, #afdef3);
+      -webkit-transform: skew(-20deg); /* Chrome, Opera */
+          -ms-transform: skew(-20deg); /* IE */
+              transform: skew(-20deg); /* Padrão */
+    }
+    
+    .positive {
+        margin-left: 520px;
+        color: #073a6d;
+        padding-top: 60px;
+      -webkit-transform: skew(20deg); /* Chrome, Opera */
+          -ms-transform: skew(20deg); /* IE */
+              transform: skew(20deg); /* Padrão */
+              p{
+                  padding-top: 10px;
+                  font-size: 14px;
+                  font-weight: $bold;
+                  line-height: 32px; 
+                  padding-right: 70px;
+              }
+    }
+    
+    .negative {
+      -webkit-transform: skew(-20deg); /* Chrome, Opera */
+          -ms-transform: skew(-20deg); /* IE */
+              transform: skew(-20deg); /* Padrão */
+      }
 }
 }/*===========================================================
   /*++++++++++++++ FIM DESKTOP LARGE 1920px: */
@@ -371,7 +462,7 @@ background-color: $azulClaro;
 #apresenta{
   clear: both;
   padding-top: 70px;
-}
+
 .carousel{
   position: relative;
   background: url(../slide/01_340.jpg);
@@ -463,6 +554,7 @@ background-size: cover;
       height: 15px;
       background-color: #073a6d;
   }
+}
   #aenuve{
     background: #f6f6f6;
     height: auto;
@@ -545,6 +637,7 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
 
   img{
      padding-top: 8%; 
+          
   }
   
 }
@@ -553,6 +646,11 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
   background: #ff8f15 url(../img/bg_contato.png) repeat-x;
   height: auto;
   padding-bottom: 20px;
+  img{
+    padding-left: 25%;
+     padding-right: 25%;
+     padding-left: 10%;
+  }
 
   h2{
       text-transform: uppercase;
@@ -616,6 +714,181 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
             padding-top: 8px;
             }
         }
+        /* ========== SOBRE ATENDIMENTO =========== */
+#atendimento{
+  width: 100% !important;
+  background: radial-gradient(circle, #99d3ef, #d3eef9, #afdef3);
+  height: auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  img{
+    width: 80%;
+  }
+  #carousel{
+    margin-left: 0px;
+    
+    .slide{
+        background: none;
+        width: 320px !important;
+        padding-bottom: 60px;
+    }
+    .carousel-control{
+        padding-top: 290px !important;
+        width: 50px;
+        background: none;
+        width: 190px;
+        margin-right:60px;
+
+    
+
+    }
+    .proximo{
+         
+        
+        img{
+            width: 60px;
+        }
+        
+        
+        
+    }
+    .anterior{
+        
+        
+     
+        img{
+            width: 60px;
+        }
+}
+
+}
+  .skew {
+      margin-left: -0px;
+      width: 100%;
+      height: auto;
+      background: radial-gradient(circle, #99d3ef, #d3eef9, #afdef3);
+      -webkit-transform: skew(-20deg); /* Chrome, Opera */
+          -ms-transform: skew(-20deg); /* IE */
+              transform: skew(-20deg); /* Padrão */
+    }
+    
+    .positive {
+        margin-left: 10px;
+        color: #073a6d;
+        padding-top: 40px;
+      -webkit-transform: skew(20deg); /* Chrome, Opera */
+          -ms-transform: skew(20deg); /* IE */
+              transform: skew(20deg); /* Padrão */
+              p{
+                  padding-top: 10px;
+                  font-size: 14px;
+                  font-weight: $bold;
+                  line-height: 32px; 
+                  padding-right: 70px;
+                  padding-bottom: 90px;
+              }
+    }
+    
+    .negative {
+      -webkit-transform: skew(-20deg); /* Chrome, Opera */
+          -ms-transform: skew(-20deg); /* IE */
+              transform: skew(-20deg); /* Padrão */
+      }
+}
+#footer{
+  width: 100%;
+  height: auto;
+  background-color:#105f9a;
+  padding-bottom: 10px;
+  .menor{
+      width: 80% !important;
+  }
+  .wrapper {
+      height: 110px;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+.bottom-contact{
+   padding-top: 10px;
+
+}
+p {
+  color: $branco;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+ h4 {
+  font-size: 16px;
+  color: $branco !important;
+  font-weight: $bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a {
+  color: #f5f5f5;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.quick-links {
+  margin-left: 10px;
+}
+
+.quick-links li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  color: #0f5f9a;
+}
+
+.copyright {
+  float: right;
+}
+
+.copyright i {
+  color: #FF3D7F;
+  margin: 0 5px;
+}
+
+.contact-list li {
+  font-size: 14px;
+  color: #FFF;
+}
+
+.contact-list i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+}
+
 }/*===========================================================
   /*++++++++++++++ fim mobile 320px: */
   /*============================================================*/ 
@@ -704,7 +977,7 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
   #apresenta{
     clear: both;
     padding-top: 70px;
-  }
+ 
   .carousel{
     position: relative;
     background: url(../slide/01_360.jpg);
@@ -797,6 +1070,7 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
         height: 15px;
         background-color: #073a6d;
     }
+  }
     #aenuve{
       background: #f6f6f6;
       height: auto;
@@ -886,6 +1160,10 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
     background: #ff8f15 url(../img/bg_contato.png) repeat-x;
     height: auto;
     padding-bottom: 20px;
+    img{
+      padding-left: 15%;
+      padding-right: 15%;
+     }
   
     h2{
         text-transform: uppercase;
@@ -949,7 +1227,181 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
               padding-top: 8px;
               }
           }
-
+          #atendimento{
+            width: 100% !important;
+            background: radial-gradient(circle, #99d3ef, #d3eef9, #afdef3);
+            height: auto;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-position: center center;
+            img{
+              width: 80%;
+            }
+            #carousel{
+              margin-left: 0px;
+              
+              .slide{
+                  background: none;
+                  width: 320px !important;
+                  padding-bottom: 60px;
+              }
+              .carousel-control{
+                  padding-top: 290px !important;
+                  width: 50px;
+                  background: none;
+                  width: 190px;
+                  margin-right:60px;
+          
+              
+          
+              }
+              .proximo{
+                   
+                  
+                  img{
+                      width: 60px;
+                  }
+                  
+                  
+                  
+              }
+              .anterior{
+                  
+                  
+               
+                  img{
+                      width: 60px;
+                  }
+          }
+          
+          }
+            .skew {
+                margin-left: -0px;
+                width: 100%;
+                height: auto;
+                background: radial-gradient(circle, #99d3ef, #d3eef9, #afdef3);
+                -webkit-transform: skew(-20deg); /* Chrome, Opera */
+                    -ms-transform: skew(-20deg); /* IE */
+                        transform: skew(-20deg); /* Padrão */
+              }
+              
+              .positive {
+                  margin-left: 10px;
+                  color: #073a6d;
+                  padding-top: 60px;
+                -webkit-transform: skew(20deg); /* Chrome, Opera */
+                    -ms-transform: skew(20deg); /* IE */
+                        transform: skew(20deg); /* Padrão */
+                        p{
+                            padding-top: 10px;
+                            font-size: 14px;
+                            font-weight: $bold;
+                            line-height: 32px; 
+                            padding-right: 70px;
+                            padding-bottom: 90px;
+                        }
+              }
+              
+              .negative {
+                -webkit-transform: skew(-20deg); /* Chrome, Opera */
+                    -ms-transform: skew(-20deg); /* IE */
+                        transform: skew(-20deg); /* Padrão */
+                }
+          }
+          #footer{
+            width: 100%;
+            height: auto;
+            background-color:#105f9a;
+            padding-bottom: 10px;
+            .menor{
+                width: 80% !important;
+                padding-left: 10px;
+            }
+            .wrapper {
+                height: 130px;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-align-items: center;
+                align-items: center;
+              }
+          
+          .bottom-contact{
+             padding-top: 10px;
+          
+          }
+          p {
+            color: $branco;
+            font-size: 14px;
+            padding-bottom: 20px;
+          }
+          
+           h4 {
+            font-size: 16px;
+            color: $branco !important;
+            font-weight: $bold;
+            padding-bottom: 10px;
+            padding-top: 10px;
+          }
+          
+          a {
+            color: #f5f5f5;
+            font-size: 14px;
+          }
+          
+          a:hover {
+            color: #FFF;
+          }
+          
+          hr {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: 35px;
+            margin-bottom: 35px;
+          }
+          
+          .quick-links {
+            margin-left: 10px;
+          }
+          
+          .quick-links li {
+            list-style-type: none;
+            margin-bottom: 10px;
+            color: #0f5f9a;
+          }
+          
+          .copyright {
+            float: right;
+          }
+          
+          .copyright i {
+            color: #FF3D7F;
+            margin: 0 5px;
+          }
+          
+          .contact-list li {
+            font-size: 14px;
+            color: #FFF;
+          }
+          
+          .contact-list i {
+            border: 1px solid #fff;
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+          }
+          
+          .footer-bottom {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+          }
+          }
+                    
 }/*===========================================================
   /*++++++++++++++ fim mobile 360px: */
   /*============================================================*/ 
@@ -1037,7 +1489,7 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
 #apresenta{
   clear: both;
   padding-top: 70px;
-}
+
 .carousel{
   position: relative;
   background: url(../slide/01_360.jpg);
@@ -1130,6 +1582,7 @@ background-size: cover;
       height: 15px;
       background-color: #073a6d;
   }
+}
 #aenuve{
   background: #f6f6f6;
   height: auto;
@@ -1219,6 +1672,10 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
   background: #ff8f15 url(../img/bg_contato.png) repeat-x;
   height: auto;
   padding-bottom: 20px;
+  img{
+    padding-left: 15%;
+    padding-right: 15%;
+   }
 
   h2{
       text-transform: uppercase;
@@ -1272,6 +1729,13 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
           .btncons{
                margin-top: 5px;
           }
+          .regular-checkbox:checked {
+            background-color: #c46d0b;
+            border: 1px solid #c46d0b;
+            box-shadow: 0 1px 2px rgba(196,109,11,0.05), inset 0px -15px 10px -12px rgba(196,109,11,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+            color: $branco !important;
+            
+        }
           .labelx{
             font-family: $fontepri;   
             color: $branco;
@@ -1281,7 +1745,182 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
             padding-left: 8px;
             padding-top: 8px;
             }
-        }       
+        } 
+         /* ========== SOBRE ATENDIMENTO =========== */
+#atendimento{
+  width: 100% !important;
+  background: radial-gradient(circle, #99d3ef, #d3eef9, #afdef3);
+  height: auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  img{
+    width: 80%;
+  }
+  #carousel{
+    margin-left: 0px;
+    
+    .slide{
+        background: none;
+        width: 320px !important;
+        padding-bottom: 60px;
+    }
+    .carousel-control{
+        padding-top: 290px !important;
+        width: 50px;
+        background: none;
+        width: 190px;
+        margin-right:60px;
+
+    
+
+    }
+    .proximo{
+         
+        
+        img{
+            width: 60px;
+        }
+        
+        
+        
+    }
+    .anterior{
+        
+        
+     
+        img{
+            width: 60px;
+        }
+}
+
+}
+  .skew {
+      margin-left: -0px;
+      width: 100%;
+      height: auto;
+      background: radial-gradient(circle, #99d3ef, #d3eef9, #afdef3);
+      -webkit-transform: skew(-20deg); /* Chrome, Opera */
+          -ms-transform: skew(-20deg); /* IE */
+              transform: skew(-20deg); /* Padrão */
+    }
+    
+    .positive {
+        margin-left: 10px;
+        color: #073a6d;
+        padding-top: 60px;
+      -webkit-transform: skew(20deg); /* Chrome, Opera */
+          -ms-transform: skew(20deg); /* IE */
+              transform: skew(20deg); /* Padrão */
+              p{
+                  padding-top: 10px;
+                  font-size: 14px;
+                  font-weight: $bold;
+                  line-height: 32px; 
+                  padding-right: 70px;
+                  padding-bottom: 90px;
+              }
+    }
+    
+    .negative {
+      -webkit-transform: skew(-20deg); /* Chrome, Opera */
+          -ms-transform: skew(-20deg); /* IE */
+              transform: skew(-20deg); /* Padrão */
+      }
+}
+#footer{
+  width: 100%;
+  height: auto;
+  background-color:#105f9a;
+  padding-bottom: 10px;
+  .menor{
+      width: 80% !important;
+      padding-left: 10px;
+  }
+  .wrapper {
+      height: 130px;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+.bottom-contact{
+   padding-top: 10px;
+
+}
+p {
+  color: $branco;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+ h4 {
+  font-size: 16px;
+  color: $branco !important;
+  font-weight: $bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a {
+  color: #f5f5f5;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.quick-links {
+  margin-left: 10px;
+}
+
+.quick-links li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  color: #0f5f9a;
+}
+
+.copyright {
+  float: right;
+}
+
+.copyright i {
+  color: #FF3D7F;
+  margin: 0 5px;
+}
+
+.contact-list li {
+  font-size: 14px;
+  color: #FFF;
+}
+
+.contact-list i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+}      
   } /*===========================================================
   /*++++++++++++++ fim mobile 375px: */
   /*============================================================*/ 
@@ -1369,7 +2008,7 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
   #apresenta{
     clear: both;
     padding-top: 70px;
-  }
+  
   .carousel{
     position: relative;
     background: url(../slide/01_360.jpg);
@@ -1462,6 +2101,7 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
         height: 15px;
         background-color: #073a6d;
     }
+  }
   #aenuve{
     background: #f6f6f6;
     height: auto;
@@ -1551,6 +2191,10 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
     background: #ff8f15 url(../img/bg_contato.png) repeat-x;
     height: auto;
     padding-bottom: 20px;
+    img{
+       padding-left: 25%;
+       padding-right: 25%;
+      }
   
     h2{
         text-transform: uppercase;
@@ -1613,7 +2257,182 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
               padding-left: 8px;
               padding-top: 8px;
               }
-          }             
+          } 
+           /* ========== SOBRE ATENDIMENTO =========== */
+#atendimento{
+  width: 100% !important;
+  background: radial-gradient(circle, #99d3ef, #d3eef9, #afdef3);
+  height: auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  img{
+    width: 80%;
+  }
+  #carousel{
+    margin-left: 0px;
+    
+    .slide{
+        background: none;
+        width: 400px !important;
+        padding-bottom: 60px;
+    }
+    .carousel-control{
+        padding-top: 250px !important;
+        width: 50px;
+        background: none;
+        width: 260px;
+        margin-right:60px;
+
+    
+
+    }
+    .proximo{
+         
+        
+        img{
+            width: 60px;
+        }
+        
+        
+        
+    }
+    .anterior{
+        
+        
+     
+        img{
+            width: 60px;
+        }
+}
+
+}
+  .skew {
+      margin-left: -0px;
+      width: 100%;
+      height: auto;
+      background: radial-gradient(circle, #99d3ef, #d3eef9, #afdef3);
+      -webkit-transform: skew(-20deg); /* Chrome, Opera */
+          -ms-transform: skew(-20deg); /* IE */
+              transform: skew(-20deg); /* Padrão */
+    }
+    
+    .positive {
+        margin-left: 10px;
+        color: #073a6d;
+        padding-top: 60px;
+      -webkit-transform: skew(20deg); /* Chrome, Opera */
+          -ms-transform: skew(20deg); /* IE */
+              transform: skew(20deg); /* Padrão */
+              p{
+                  padding-top: 10px;
+                  font-size: 14px;
+                  font-weight: $bold;
+                  line-height: 32px; 
+                  padding-right: 70px;
+                  padding-bottom: 90px;
+              }
+    }
+    
+    .negative {
+      -webkit-transform: skew(-20deg); /* Chrome, Opera */
+          -ms-transform: skew(-20deg); /* IE */
+              transform: skew(-20deg); /* Padrão */
+      }
+} 
+#footer{
+  width: 100%;
+  height: auto;
+  background-color:#105f9a;
+  padding-bottom: 10px;
+  .menor{
+      width: 80% !important;
+      padding-left: 10px;
+  }
+  .wrapper {
+      height: 130px;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+.bottom-contact{
+   padding-top: 10px;
+
+}
+p {
+  color: $branco;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+ h4 {
+  font-size: 16px;
+  color: $branco !important;
+  font-weight: $bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a {
+  color: #f5f5f5;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.quick-links {
+  margin-left: 10px;
+}
+
+.quick-links li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  color: #0f5f9a;
+}
+
+.copyright {
+  float: right;
+}
+
+.copyright i {
+  color: #FF3D7F;
+  margin: 0 5px;
+}
+
+.contact-list li {
+  font-size: 14px;
+  color: #FFF;
+}
+
+.contact-list i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+}           
     } /*===========================================================
     /*++++++++++++++ Fim mobile 414px: */
     /*============================================================*/
@@ -1717,13 +2536,60 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
   
 } 
 #sobrehome{
-  margin-top: -175px;
+  margin-top: 0px;
   display: block;
  
   img{
      padding-top: 15%; 
   }
   
+}
+#atendimento{
+  width: 100% !important;
+  background:  url(../img/atendimento_bg.jpg) repeat-x;
+  height: 500px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  #carousel{
+      margin-left: -100px;
+      
+      .slide{
+          background: none;
+          width: 400px !important;
+      }
+      .carousel-control{
+          padding-top: 230px !important;
+          width: 50px;
+          background: none;
+          width: 130px;
+          margin-right:190px;
+
+      
+
+      }
+      .proximo{
+           
+          
+          img{
+              width: 60px;
+          }
+          
+          
+          
+      }
+      .anterior{
+          
+          
+       
+          img{
+              width: 60px;
+          }
+  }
+
+  }
 }      
 } /*===========================================================
 /*++++++++++++++ fim ipad portrait: */
@@ -1913,7 +2779,166 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
             padding-left: 8px;
             padding-top: 8px;
             }
-        }    
+        }
+        #atendimento{
+          width: 100% !important;
+          background:  url(../img/atendimento_bg.jpg) repeat-x;
+          height: 500px;
+          background-size: cover;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-position: center center;
+          #carousel{
+              margin-left: -280px;
+              
+              .slide{
+                  background: none;
+                  width: 400px !important;
+              }
+              .carousel-control{
+                  padding-top: 230px !important;
+                  width: 50px;
+                  background: none;
+                  width: 130px;
+                  margin-right:190px;
+        
+              
+        
+              }
+              .proximo{
+                   
+                  
+                  img{
+                      width: 60px;
+                  }
+                  
+                  
+                  
+              }
+              .anterior{
+                  
+                  
+               
+                  img{
+                      width: 60px;
+                  }
+          }
+        
+          }
+          .skew {
+            margin-left: -150px;
+          }
+         .positive {
+           margin-left: 230px;
+         } 
+        }
+        #footer{
+          width: 100%;
+          height: auto;
+          background-color:#105f9a;
+          padding-bottom: 10px;
+          .form-group {        
+            margin-bottom: 0;
+           
+          }
+          .contact-form{
+            height: 400px;
+          }
+          .menor{
+              width: 80% !important;
+              padding-left: 10px;
+          }
+          .wrapper {
+              height: 300px;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-align-items: center;
+              align-items: center;
+            }
+        
+        .bottom-contact{
+           padding-top: 0px;
+          
+        
+        }
+        p {
+          color: $branco;
+          font-size: 14px;
+          padding-bottom: 20px;
+        }
+        
+         h4 {
+          font-size: 16px;
+          color: $branco !important;
+          font-weight: $bold;
+          padding-bottom: 10px;
+          padding-top: 10px;
+        }
+        
+        a {
+          color: #f5f5f5;
+          font-size: 14px;
+        }
+        
+        a:hover {
+          color: #FFF;
+        }
+        .contact-form{
+        display: block;
+        clear: both;
+        position: relative;
+        z-index: 99999;
+        margin-top: 100px;
+        float: left;
+        }
+        hr {
+          border-top: 1px solid rgba(255, 255, 255, 0.2);
+          margin-top: 35px;
+          margin-bottom: 35px;
+        }
+        
+        .quick-links {
+          margin-left: 10px;
+        }
+        
+        .quick-links li {
+          list-style-type: none;
+          margin-bottom: 10px;
+          color: #0f5f9a;
+        }
+        
+        .copyright {
+          float: right;
+        }
+        
+        .copyright i {
+          color: #FF3D7F;
+          margin: 0 5px;
+        }
+        
+        .contact-list li {
+          font-size: 14px;
+          color: #FFF;
+        }
+        
+        .contact-list i {
+          border: 1px solid #fff;
+          border-radius: 50%;
+          height: 40px;
+          width: 40px;
+          text-align: center;
+          line-height: 40px;
+          margin-right: 10px;
+          margin-bottom: 10px;
+        }
+        
+        .footer-bottom {
+          margin-top: 10px;
+          padding-top: 10px;
+          border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        }     
 
 } /*===========================================================
 /*++++++++++++++ fim ipad landscape: */
@@ -2039,7 +3064,67 @@ background: url(../images/fundo_sobre_414.jpg) no-repeat;
        padding-top: 8%; 
     }
     
-  }      
+  }
+  #atendimento{
+    width: 100% !important;
+    background:  url(../img/atendimento_bg.jpg) repeat-x;
+    height: 500px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    #carousel{
+        margin-left: -280px;
+        
+        .slide{
+            background: none;
+            width: 400px !important;
+        }
+        .carousel-control{
+            padding-top: 230px !important;
+            width: 50px;
+            background: none;
+            width: 130px;
+            margin-right:190px;
+  
+        
+  
+        }
+        .proximo{
+             
+            
+            img{
+                width: 60px;
+            }
+            
+            
+            
+        }
+        .anterior{
+            
+            
+         
+            img{
+                width: 60px;
+            }
+    }
+  
+    }
+    .skew {
+      margin-left: -150px;
+      
+    }
+   .positive {
+     margin-left: 230px;
+     .img-responsive{
+      float: left;
+      margin-left: -100px;
+    }
+   }
+    
+  }     
+
   
 }
 /*===========================================================

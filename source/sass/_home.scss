@@ -96,7 +96,7 @@
     padding-top: 20px;
     a{
         text-transform: uppercase;
-        color: $branco !important;
+        color: $branco;
         font-size: 12px !important;
         font-weight: $bold;
     
@@ -107,7 +107,7 @@
     color: $azulClaro !important;
     text-decoration: underline;
     }
-    
+   
     .active {
         
         a{

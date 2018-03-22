@@ -1,0 +1,11 @@
+@import "mixins";
+
+.ativado {
+
+    a {
+     color: $azulClaro !important;
+     text-decoration: underline !important;
+        
+    
+    }
+} 

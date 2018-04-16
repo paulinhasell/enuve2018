@@ -373,7 +373,10 @@
               transform: skew(-20deg); /* Padrão */
       }
 }
-}/*===========================================================
+// PAGINA SOBRE //
+
+}
+/*===========================================================
   /*++++++++++++++ FIM DESKTOP LARGE 1920px: */
   /*============================================================*/ 
 
@@ -512,6 +515,7 @@ background-size: cover;
     text-transform: uppercase;
     font-weight: $bolder;
     color:$branco;
+    line-height: 18px;
     font-size: 16px;
  }
  p{
@@ -888,7 +892,6 @@ hr {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 }
-
 }/*===========================================================
   /*++++++++++++++ fim mobile 320px: */
   /*============================================================*/ 
@@ -1027,6 +1030,7 @@ hr {
       font-family: $fontesec;
       text-transform: uppercase;
       font-weight: $bolder;
+      line-height: 18px;
       color:$branco;
       font-size: 16px;
    }
@@ -1540,6 +1544,7 @@ background-size: cover;
     text-transform: uppercase;
     font-weight: $bolder;
     color:$branco;
+    line-height: 24px;
     font-size: 22px;
  }
  p{
@@ -2059,6 +2064,7 @@ hr {
       text-transform: uppercase;
       font-weight: $bolder;
       color:$branco;
+      line-height: 24px;
       font-size: 22px;
    }
    p{

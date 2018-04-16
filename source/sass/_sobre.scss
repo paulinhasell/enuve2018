@@ -4,8 +4,193 @@
 
     a {
      color: $azulClaro !important;
-     text-decoration: underline !important;
+     text-decoration: none !important;
         
     
     }
-} 
+
+}
+#toposobre{
+    position: relative;
+    background: url(../img/sobre.jpg);
+    background-size: cover;
+    height: 600px;
+    h1 {
+        
+        font-family: $fontesec;
+       text-transform: uppercase;
+       font-weight: $bolder;
+       color: $azulEscuro;
+       font-size: 50px;
+       letter-spacing: -1px;
+       line-height: 56px;
+       -webkit-text-stroke-width: 2px;
+       -webkit-text-stroke-color: $azulEscuro;
+       br{
+           line-height: 58px;
+           
+       }
+       .spaceleft{
+           padding-left: 34px;
+       }
+        .aspas{
+           font-size:82px;
+           letter-spacing: 5px;
+           font-family: 'Roboto', sans-serif !important;
+           -webkit-text-stroke-width: 0px;
+           -webkit-text-stroke-color: $azulEscuro;
+       }
+       .aspasOFF{
+        font-size:50px;
+        letter-spacing: 5px;
+        font-family: 'Roboto', sans-serif !important;
+        -webkit-text-stroke-width: 0px;
+        -webkit-text-stroke-color: $azulEscuro;
+       }
+    }
+    .boxchamada{
+        width: 80%;
+        padding-top: 200px;
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+    #toposobre{
+        position: relative;
+        background: url(../img/sobre_340.jpg) no-repeat;
+        background-size: cover;
+        height: 400px;
+        h1{
+        font-size: 22px;
+       letter-spacing: -1px;
+       line-height: 22px;
+       -webkit-text-stroke-width: 0px;
+       -webkit-text-stroke-color: $azulEscuro;
+       padding-left: 20px;
+        
+       br{
+           line-height: 22px;
+           
+       }
+       .spaceleft{
+           padding-left: 4px;
+       }
+        .aspas{
+           font-size:18px;
+           letter-spacing: 5px;
+           font-family: 'Roboto', sans-serif !important;
+           -webkit-text-stroke-width: 0px;
+           -webkit-text-stroke-color: $azulEscuro;
+       }
+       .aspasOFF{
+        font-size:18px;
+        letter-spacing: 5px;
+        font-family: 'Roboto', sans-serif !important;
+        -webkit-text-stroke-width: 0px;
+        -webkit-text-stroke-color: $azulEscuro;
+       }
+
+    }
+    
+}
+.boxchamada{
+    width: 80%;
+    padding-top: -100px;
+}
+}
+
+#sobreenuve{
+    figure{
+        padding-top: 30px;
+    }
+    p{
+        padding-top: 20px;
+        font-size: 14px;
+        font-weight: $bold;
+        line-height: 32px;
+        padding-right: 110px;
+        color: $azulEscuro;
+        font-family: $fontepri;
+    }
+    h2{
+        font-family: $fontepri;
+       text-transform: uppercase;
+       font-weight: $bolder;
+       color: $azulEscuro;
+       font-size: 14px;
+       padding-top: 5px;
+    
+    }
+    ul{
+        padding-top: 5px;
+        font-family: $fontepri;
+        font-weight: $bold;
+        color: $azulEscuro;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+    .spaceright{
+        padding-right: 20px;
+        content: "f0c8";
+    }
+    .slogan{
+        padding-top: 50px;
+    }
+}
+#fita{
+   position: relative;
+    margin-top: -90px;
+    width: 100%;
+    height: 559px;
+    z-index: 1;
+}
+#sobresolucao{
+    margin-top: -240px;
+    z-index: 0;
+    figure{
+
+    }
+    p{
+        padding-top: 20px;
+        font-size: 14px;
+        font-weight: $bold;
+        line-height: 32px;
+        padding-right: 110px;
+        color: $azulEscuro;
+        font-family: $fontepri;
+        padding-bottom: 50px;
+    }
+    ul{
+        padding-top: 25px;
+        font-family: $fontepri;
+        font-weight: $bold;
+        color: $azulEscuro;
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 45px;
+    }
+    .spacetop{
+        margin-top:75px;
+        padding-bottom: 80px; 
+    }
+}
+@media only screen and (max-width: 767px) {
+    #fita{
+        position: relative;
+         margin-top: -60px;
+         width: 100%;
+         height: 350px;
+         z-index: 1;
+     }
+     #sobreenuve{
+        padding-left: 5px;
+        padding-right: 5px;
+        }
+    #sobresolucao{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: -240px;
+        z-index: 0;
+    }
+}

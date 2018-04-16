@@ -12,6 +12,7 @@
     width: 100%;
     clear: both;
     padding-top: 0;
+    z-index: 3;
    .logoTopo{
         padding-top: 2px;
     } 
@@ -26,7 +27,6 @@
             float:left;
             height: 25px;   
       }
-      
       ::-webkit-input-placeholder {
         color:$branco;
         font-family: $fontepri;
@@ -105,7 +105,7 @@
         background-color: transparent !important;
     font-family: $fontepri;
     color: $azulClaro !important;
-    text-decoration: underline;
+    text-decoration: none;
     }
    
     .active {
@@ -186,6 +186,7 @@
        font-weight: $bolder;
        color:$branco;
        font-size: 36px;
+       line-height: 40px;
     }
     p{
         font-family: $fontepri;
@@ -328,7 +329,7 @@
     margin-top: 0px;
     display: block;
     width:100% !important;
-    height: 565px;
+    height: 450px;
 	background: url(../images/fundo_sobre.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -338,7 +339,7 @@
     clear: both;
 
     img{
-       padding-top: 5%; 
+       padding-top: 2%; 
     }
     
 }

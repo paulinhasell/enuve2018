@@ -13,7 +13,7 @@
 <![endif]-->
     <!-- Bootstrap -->
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-    <link href="css/style.css?v58" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css?v53" rel="stylesheet" type="text/css" media="all" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +22,84 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="page-top" data-spy="scroll" data-target="navbar-fixed-top">
+<style>
+ 
+ .modal-backdrop {
+   background-color: #014064;
+ }
+ .modal-backdrop.in {
+   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=76);
+   opacity: 0.76;
+ }
+ 
+ .modal {
+   text-align: center;
+ }
+ .modal.in .modal-dialog {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+ }
+ .modal .modal-dialog {
+   width: 100%;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+ }
+ .modal .modal-dialog .modal-content {
+   -moz-border-radius: 0;
+   -webkit-border-radius: 0;
+   border-radius: 0;
+   border: none;
+   background-color: transparent;
+   box-shadow: none;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+ .modal .modal-dialog .modal-header {
+   border: none;
+   margin: 0;
+   background-color: transparent;
+   text-align: right;
+ }
+ .modal .modal-dialog .modal-header button {
+   display: inline-block;
+   vertical-align: middle;
+ }
+ .modal .modal-dialog .modal-body {
+   padding: 0;
+   margin: 0 auto;
+   background-color: transparent;
+ }
+ .modal.videoModal .modal-dialog {
+   max-width: 940px;
+   width: 100%;
+ }
+ .modal.videoModal .modal-dialog .modal-content {
+   background-color: #014064 ;
+ 
+ }
+ .modal.videoModal .modal-dialog .modal-body {
+   margin: 0 auto;
+   background-color: transparent;
+   max-width: 832px;
+   width: 100%;
+   padding: 4px 15px 50px 15px;
+ }
+ .fechar{
+   color:#FFFFFF;
+   font-weight: 400;
+   font-size: small;
+   
+ }
+</style>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <section id="menuTopo"  class="navbar-fixed-top">
         <div class="container">
           <div class="row">
@@ -49,11 +126,11 @@
                       <!-- NavBar -->
                       <div class="collapse navbar-collapse" id="menu">
                         <ul class="nav navbar-nav">
-                          <li><a href="sobre.html" class="scroll">Sobre</a></li>
-                          <li><a href="#solucoes" class="scroll">Soluções</a></li>
-                          <li><a href="#sobrehome" class="scroll">Benefícios</a></li>
-                          <li><a href="#consultoria" class="scroll">Experimente</a></li>
-                          <li><a href="#"class="scroll">Blog</a></li>
+                          <li><a href="#sobre">Sobre</a></li>
+                          <li><a href="#solucoes">Soluções</a></li>
+                          <li><a href="#beneficios">Benefícios</a></li>
+                          <li><a href="#contato">Experimente</a></li>
+                          <li><a href="#">Blog</a></li>
                           <span class="mobile">   
                           <li> <img src="img/tel_topo.png"  title="tel Topo" alt="telefone Enuve"></li>
                         </span>
@@ -156,7 +233,6 @@
 </div>
 </section>
 <div class="clearfix"></div>
-<section id="solucoes">
 <div  class="hidden-xs">
   <a href="#"  data-toggle="modal" data-target="#videoModal"><img src="img/video_frame.jpg" class="img-responsive fullHD"> </a>
  </div>
@@ -180,7 +256,9 @@
       </div>
     </div>
   </div> 
-</section>
+
+
+
 <div class="clearfix"></div> 
 <section id="sobrehome">
   <div class="container-fluid">
@@ -370,11 +448,11 @@
           <li class="hidden-xs hidden-sm">
             <h3 class="enuveMenu"><span class="fonteMenor">Vantagens</span> <strong>ENUVEPRO</strong></h3>
           </li>
-          <li> <a href="#solucoes" class="scroll"  data-target="#solucoes" id="#botao"> Armazenamento </a> </li>
-          <li> <a href="#solucoes" class="scroll" data-target="#solucoes"> Cloud Backup </a> </li>
-          <li> <a href="#solucoes"  class="scroll" data-target="#solucoes"> Colaboração </a> </li>
-          <li> <a href="#solucoes" class="scroll" data-target="#solucoes"> Segurança </a> </li>
-          <li> <a href="#footer" class="scroll"> <i class="fa fa-bars fa-2x"></i> </a> </li>
+          <li> <a href="#snippets" data-toggle="modal" data-target="#arma" id="#botao"> Armazenamento </a> </li>
+          <li> <a href="#snippets" data-toggle="modal" data-target="#bkp"> Cloud Backup </a> </li>
+          <li> <a href="#snippets" data-toggle="modal" data-target="#cola"> Colaboração </a> </li>
+          <li> <a href="#snippets" data-toggle="modal" data-target="#segura"> Segurança </a> </li>
+          <li> <a href="#footer"> <i class="fa fa-bars fa-2x"></i> </a> </li>
         </ul>
       </nav>
     </section>
@@ -386,14 +464,6 @@
     <script src="https://use.fontawesome.com/5cb466a7f4.js"></script>
     <script type="text/javascript" src="video/video.js"></script> 
     <script>
-var $doc = $('html, body');
-$('.scroll').click(function() {
-    $doc.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-    return false;
-});
-
       $('[data-spy="scroll"]').each(function () {
     var $spy = $(this).scrollspy('refresh')
   });
@@ -460,4 +530,3 @@ function onPlayerReady(event) {
 </html>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed: 400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
